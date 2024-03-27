@@ -37,6 +37,12 @@ xlabel('X(1)')
 ylabel('X(2)')
 title('phase portrait')
 
+figure(3)
+plot(y(:,3),y(:,2))
+xlabel('X(3)')
+ylabel('X(2)')
+title('y vs z')
+
 figure(2)
 timestep = 0:time/dt;
 plot(timestep,y(:,1))
