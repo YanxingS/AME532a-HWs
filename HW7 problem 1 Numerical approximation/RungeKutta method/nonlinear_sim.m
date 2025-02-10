@@ -1,4 +1,4 @@
-clear all;
+clear all; close all;
 
 %% run instruction
 % 1 enter name of the state equation that is in the m file that is in the
